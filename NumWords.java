@@ -7,7 +7,7 @@ public class NumWords {
 		int tens = (input / 10) % 10;
 		int units = input % 10;
 		// Format: 5 hundreds, 1 tens, and 7 ones.
-		String outputMessage = String.format("%d hundreds, 1 tens, and 7 ones.", hundreds, tens, units);
+		String outputMessage = String.format("%d hundreds, %d tens, and %d ones.", hundreds, tens, units);
 		System.out.println(outputMessage);
 	}
 }
