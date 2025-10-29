@@ -7,7 +7,7 @@ public class Bill3 {
 		String name3 = args[2];
 		double totalCost = Double.parseDouble(args[3]);
 		double costForEach = Math.ceil(totalCost / 3);
-		String outputMessage = String.format("Dear %s, %s, and %s: pay %.02f Shekels each.", name3, name2, name1, costForEach);
+		String outputMessage = String.format("Dear %s, %s, and %s: pay %.01f Shekels each.", name3, name2, name1, costForEach);
 		System.out.println(outputMessage);
 
 	}
